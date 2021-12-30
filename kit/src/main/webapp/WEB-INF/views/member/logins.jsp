@@ -15,7 +15,6 @@
   integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
   crossorigin="anonymous"></script>
 
-<body class="goto-here">
 <section class="ftco-section">
 	<div class="container">
 		<div class="row justify-content-center">

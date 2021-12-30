@@ -7,7 +7,7 @@
 
     <section id="home-section" class="hero">
 		  <div class="home-slider owl-carousel">
-	      <div class="slider-item" style="background-image: url(/resources/images/kit_1.jpg);">
+	      <div class="slider-item" style="background-image: url(/resources/images/kit11.jpg);">
 	      	<div class="overlay"></div>
 	        <div class="container">
 	          <div class="row slider-text justify-content-center align-items-center" data-scrollax-parent="true">
@@ -15,23 +15,23 @@
 	            <div class="col-md-12 ftco-animate text-center">
 	            <h1 class="mb-2">meal kit story</h1>
 <!-- 	              <h1 class="mb-2">We serve Fresh Vegestables &amp; Fruits</h1> -->
-	              <h2 class="subheading mb-4">meal kit story</h2>
-	              <p><a href="#" class="btn btn-primary">View Details</a></p>
+	              <h2 class="subheading mb-4">Hello &amp; Customers.</h2>
+<!-- 	              <p><a href="#" class="btn btn-primary">View Details</a></p> -->
 	            </div>
 
 	          </div>
 	        </div>
 	      </div>
 
-	      <div class="slider-item" style="background-image: url(/resources/images/bg_2.jpg);">
+	      <div class="slider-item" style="background-image: url(/resources/images/kit12.jpg);">
 	      	<div class="overlay"></div>
 	        <div class="container">
 	          <div class="row slider-text justify-content-center align-items-center" data-scrollax-parent="true">
 
 	            <div class="col-sm-12 ftco-animate text-center">
-	              <h1 class="mb-2">100% Fresh &amp; Organic Foods</h1>
-	              <h2 class="subheading mb-4">We deliver organic vegetables &amp; fruits</h2>
-	              <p><a href="#" class="btn btn-primary">View Details</a></p>
+	              <h1 class="mb-2">Thank you for visiting our meal kit story.</h1>
+	              <h2 class="subheading mb-4">Please enjoy it.</h2>
+<!-- 	              <p><a href="#" class="btn btn-primary">View Details</a></p> -->
 	            </div>
 
 	          </div>

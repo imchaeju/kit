@@ -5,103 +5,122 @@
 
 <%@ include file="../includes/header.jsp"%>
 
-<div class="container">
-	<div class="div-1">
-		<h3 class="mb-4 billing-heading">회원가입</h3>
+
+<section class="ftco-section">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-xl-7 ftco-animate">
+				<div class="container">
+					<div class="div-1">
+						<h3 class="mb-4 billing-heading">회원가입</h3>
+					</div>
+					
+					<div class="row align-items-end">
+						<div class="col-md-12">
+							<div class="form-group">
+								<label for="a-name">이름</label> 
+								<input type="text" class="form-control" id="userName" name="userName" placeholder="name">
+								<div class="check-font" id="id-check"></div>
+							</div>
+							<span class="name-ck">이름을 입력하세요.</span>
+						</div>
+						<br>
+
+						<div class="col-md-12">
+							<div class="form-group">
+								<label for="userId">아이디</label>
+								<input type="text" class="form-control" id="userId" name="userId" placeholder="Id"><br>
+								<button id="id-check" type="button">중복체크</button>
+							</div>
+						</div>
+						
+						<div class="col-md-12">
+							<div class="form-group">
+								<label for="password">비밀번호</label>
+								<input type="password" class="form-control" id="password" name="password" placeholder="Password">
+								<input type="hidden" id="ac-password">
+							</div>
+							<span class="pw-ck">비밀번호를 입력하세요.</span>
+						</div>
+
+						<div class="col-md-12">
+							<div class="form-group">
+								<label for="b-password">비밀번호확인</label>
+								<input type="password" class="form-control" id="b-password" name="b-password" placeholder="Password">
+							</div>
+							<span class="pwck-ck">비밀번호 확인을 입력하세요.</span>
+						</div>
+
+						<div class="col-md-12">
+							<div class="form-group">
+								<label for="phone">휴대폰 번호</label>
+								<input type="text" class="form-control" id="phone" name="phone" placeholder="Phone">
+							</div>
+						</div>
+
+						<div class="col-md-12">
+							<div class="form-group">
+								<label for="email">이메일</label>
+								<input type="text" class="form-control" id="email" name="email" placeholder="Email Address">
+							</div>
+							<div class="form-group">
+								<input type="text" class="form-control" disabled="disabled"><br>
+								<button type="button" class="mail-check-button">인증번호 전송</button>
+							</div>
+							<span class="mail-ck">이메일을 입력하세요.</span>
+						</div>
+
+
+						<div class="col-md-12">
+							<div class="form-group">
+								<label for="address">주소</label>
+								<!-- 	                  <input type="text" class="form-control" id="a-address" placeholder="Address"> -->
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="form-group">
+								<span class="form-control">우편번호</span>
+								<input type="text" class="form-control" id="addr1" name="addr1" readonly="readonly">
+								<span class="form-control">
+									<button type="button" class="btn btn-default" onclick="execPostCode();">
+										<i class="fa fa-search"></i>우편번호 찾기
+									</button>
+								</span>
+								<input type="text" class="form-control" placeholder="도로명 주소" name="addr2" id="addr2" readonly="readonly">
+								<input type="text" class="form-control" name="addr3" id="addr3" placeholder="상세주소">
+							</div>
+							<span class="addr-ck">주소를 입력하세요.</span>
+						</div>
+
+						<div class="div-1">
+							<p>
+								<button id="btnsign" class="btn btn-primary py-3 px-4">회원가입</button>
+
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
-	<div class="row align-items-end">
-		<!-- 	          		<div class="col-md-6"> -->
-		<div class="col-md-12">
-			<div class="form-group">
-				<label for="a-name">이름</label> <input type="text"
-					class="form-control" id="userName" name="userName"
-					placeholder="name">
-				<div class="check-font" id="id-check"></div>
-			</div>
-			<span class="name-ck">이름을 입력하세요.</span>
-		</div>
-		<br>
+</section>
 
-		<div class="col-md-12">
-			<div class="form-group">
-				<label for="userId">아이디</label> <input type="text"
-					class="form-control" id="userId" name="userId" placeholder="Id"><br>
-				<button id="id-check" type="button">중복체크</button>
-			</div>
-
-		</div>
-		<div class="col-md-12">
-			<div class="form-group">
-				<label for="password">비밀번호</label> <input type="password"
-					class="form-control" id="password" name="password"
-					placeholder="Password"> <input type="hidden"
-					id="ac-password">
-			</div>
-			<span class="pw-ck">비밀번호를 입력하세요.</span>
-		</div>
-
-		<div class="col-md-12">
-			<div class="form-group">
-				<label for="b-password">비밀번호확인</label> <input type="password"
-					class="form-control" id="b-password" name="b-password"
-					placeholder="Password">
-			</div>
-			<span class="pwck-ck">비밀번호 확인을 입력하세요.</span>
-		</div>
-
-		<div class="col-md-12">
-			<div class="form-group">
-				<label for="phone">휴대폰 번호</label> <input type="text"
-					class="form-control" id="phone" name="phone" placeholder="Phone">
-			</div>
-		</div>
-
-		<div class="col-md-12">
-			<div class="form-group">
-				<label for="email">이메일</label> <input type="text"
-					class="form-control" id="email" name="email"
-					placeholder="Email Address">
-			</div>
-			<div class="form-group">
-				<input type="text" class="form-control" disabled="disabled">
-				<button type="button" class="mail-check-button">인증번호 전송</button>
-			</div>
-			<span class="mail-ck">이메일을 입력하세요.</span>
-		</div>
-
-
-		<div class="col-md-12">
-			<div class="form-group">
-				<label for="address">주소</label>
-				<!-- 	                  <input type="text" class="form-control" id="a-address" placeholder="Address"> -->
-			</div>
-		</div>
-		<div class="col-md-12">
-			<div class="form-group">
-				<span class="form-control">우편번호</span> <input type="text"
-					class="form-control" id="addr1" name="addr1" readonly="readonly">
-				<span class="form-control">
-					<button type="button" class="btn btn-default"
-						onclick="execPostCode();">
-						<i class="fa fa-search"></i>우편번호 찾기
-					</button>
-				</span> <input type="text" class="form-control" placeholder="도로명 주소"
-					name="addr2" id="addr2" readonly="readonly"> <input
-					type="text" class="form-control" name="addr3" id="addr3"
-					placeholder="상세주소">
-			</div>
-			<span class="addr-ck">주소를 입력하세요.</span>
-		</div>
-
-		<div class="div-1">
-			<p>
-				<button id="btnsign" class="btn btn-primary py-3 px-4">회원가입</button>
-
-			</p>
-		</div>
-	</div>
-
-</div>
+<script src="/resources/js/jquery.min.js"></script>
+  <script src="/resources/js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="/resources/js/popper.min.js"></script>
+  <script src="/resources/js/bootstrap.min.js"></script>
+  <script src="/resources/js/jquery.easing.1.3.js"></script>
+  <script src="/resources/js/jquery.waypoints.min.js"></script>
+  <script src="/resources/js/jquery.stellar.min.js"></script>
+  <script src="/resources/js/owl.carousel.min.js"></script>
+  <script src="/resources/js/jquery.magnific-popup.min.js"></script>
+  <script src="/resources/js/aos.js"></script>
+  <script src="/resources/js/jquery.animateNumber.min.js"></script>
+  <script src="/resources/js/bootstrap-datepicker.js"></script>
+  <script src="/resources/js/scrollax.min.js"></script>
+<!--   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script> -->
+<!--   <script src="/resources/js/google-map.js"></script> -->
+  <script src="/resources/js/main.js"></script>
 
 
 
