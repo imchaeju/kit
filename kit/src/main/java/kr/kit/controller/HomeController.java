@@ -52,7 +52,7 @@ public class HomeController {
 	@GetMapping("/login")
 	public void loginInput(String error, String logout, Model model) {
 		if (error != null)
-			model.addAttribute("error", "계정을 확인해 주세요");
+			model.addAttribute("error", "아이디&비밀번호 확인해주세요.");
 		if (logout != null)
 			model.addAttribute("logout", "로그아웃");
 	}

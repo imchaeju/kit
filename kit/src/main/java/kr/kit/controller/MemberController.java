@@ -24,8 +24,6 @@ public class MemberController {
 
 	
 	private MemberService memberservice;
-	
-	
 	private BCryptPasswordEncoder passEncoder;
 
 
@@ -40,9 +38,10 @@ public class MemberController {
 		log.info("회원가입 진입");
 		log.info("member : " + member);
 		
+		//비밀번호를 암호화
 		String inputPass = member.getPassword();
 		String pass = passEncoder.encode(inputPass);
-		member.setPassword(pass);
+		member.setPassword(pass); //DB에 넘겨주기 위해서 암호화된 비빌번호를 member 객체에 저장.
 
 		try {
 			memberservice.signup(member);

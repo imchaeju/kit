@@ -43,6 +43,8 @@
 			</foreach>
 		</trim>
 	</sql>
+	
+	
 	<!-- 회원 가입 -->
 	<insert id="signup">
 		insert into MEMBER (
@@ -68,8 +70,6 @@
 		sysdate
 		)
 	</insert>
-
-
 	<!-- 회원가입 끝 -->
 
 

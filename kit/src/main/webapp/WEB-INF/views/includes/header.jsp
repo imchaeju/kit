@@ -70,6 +70,7 @@
                 <a class="dropdown-item" href="product-single.html">Single Product</a>
                 <a class="dropdown-item" href="/shop/cart">Cart</a>
                 <a class="dropdown-item" href="/shop/checkout">Checkout</a>
+                <a class="dropdown-item" href="/shop/register1">register</a>
               </div>
             </li>
 <!-- 	          <li class="nav-item"><a href="about.html" class="nav-link">MyPage</a></li> -->

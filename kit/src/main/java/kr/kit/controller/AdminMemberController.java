@@ -28,9 +28,9 @@ public class AdminMemberController {
 	
 	private MemberService service; 
 	private MemberAuthMapper authservice;
+	
 	   @GetMapping("list")
 	   public void list() {
-
 	   }
 	   
 	   @PostMapping(value = "searchlist", produces = MediaType.APPLICATION_JSON_VALUE)
@@ -67,5 +67,9 @@ public class AdminMemberController {
 	      }
 	      return new ResponseEntity<String>("succuess", HttpStatus.OK);      
 	   }
+	   
+	   @GetMapping("/register1")
+		public void register1() {
+		}
 
 }

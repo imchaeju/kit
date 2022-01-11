@@ -7,7 +7,7 @@
 
     <section id="home-section" class="hero">
 		  <div class="home-slider owl-carousel">
-	      <div class="slider-item" style="background-image: url(/resources/images/kit11.jpg);">
+	      <div class="slider-item" style="background-image: url(/resources/images/steak_3.jpg);">
 	      	<div class="overlay"></div>
 	        <div class="container">
 	          <div class="row slider-text justify-content-center align-items-center" data-scrollax-parent="true">
@@ -23,7 +23,7 @@
 	        </div>
 	      </div>
 
-	      <div class="slider-item" style="background-image: url(/resources/images/kit12.jpg);">
+	      <div class="slider-item" style="background-image: url(/resources/images/food_3.jpg);">
 	      	<div class="overlay"></div>
 	        <div class="container">
 	          <div class="row slider-text justify-content-center align-items-center" data-scrollax-parent="true">
@@ -34,6 +34,17 @@
 <!-- 	              <p><a href="#" class="btn btn-primary">View Details</a></p> -->
 	            </div>
 
+	          </div>
+	        </div>
+	      </div>
+	      
+	       <div class="slider-item" style="background-image: url(/resources/images/food_2.jpg);">
+	      	<div class="overlay"></div>
+	        <div class="container">
+	          <div class="row slider-text justify-content-center align-items-center" data-scrollax-parent="true">
+
+	            <div class="col-sm-12 ftco-animate text-center">
+	            </div>
 	          </div>
 	        </div>
 	      </div>

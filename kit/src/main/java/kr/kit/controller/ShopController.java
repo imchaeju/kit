@@ -29,5 +29,9 @@ public class ShopController {
 	@GetMapping("/checkout")
 	public void checkout() {
 	}
+	
+//	@GetMapping("/register1")
+//	public void register1() {
+//	}
 
 }
