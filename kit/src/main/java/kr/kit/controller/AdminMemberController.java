@@ -11,11 +11,14 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import kr.kit.domain.AuthVO;
 import kr.kit.domain.Criteria;
 import kr.kit.domain.MemberVO;
+import kr.kit.domain.ProductVO;
 import kr.kit.mapper.MemberAuthMapper;
+import kr.kit.service.AdminService;
 import kr.kit.service.MemberService;
 import lombok.AllArgsConstructor;
 import lombok.extern.log4j.Log4j;
@@ -68,8 +71,12 @@ public class AdminMemberController {
 	      return new ResponseEntity<String>("succuess", HttpStatus.OK);      
 	   }
 	   
-	   @GetMapping("/register1")
-		public void register1() {
-		}
+//	   @GetMapping("/register")
+//		public void register() {
+//		}
+	   
+	 
+	   
+	   
 
 }

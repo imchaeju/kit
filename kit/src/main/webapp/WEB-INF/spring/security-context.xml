@@ -25,15 +25,17 @@
          pattern="/admin/*" access="hasRole('ROLE_ADMIN')" />
 <!--       <security:intercept-url pattern="/board/list"
          access="hasRole('ROLE_MEMBER')" /> -->
+         
+         
       <security:form-login login-page="/login"
          authentication-success-handler-ref="CustomLoginSuccess" />
       <security:logout logout-url="/logout"
          invalidate-session="true" />
+         
       <security:remember-me
          data-source-ref="dataSource" token-validity-seconds="604800" />
       <security:access-denied-handler
          ref="customAccessDenied" />
-
    </security:http>
 
    <security:authentication-manager>

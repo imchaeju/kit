@@ -54,7 +54,7 @@
                                 회원관리
                             </a>
                             <div class="sb-sidenav-menu-heading">Price</div>
-                            <a class="nav-link" href="/admin/member/register1">
+                            <a class="nav-link" href="/admin/product/register">
                                 <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                                 상품등록
                             </a>

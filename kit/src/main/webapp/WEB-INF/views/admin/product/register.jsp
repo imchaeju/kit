@@ -11,7 +11,6 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-xl-7 ftco-animate">
-						<form action="#" class="billing-form">
 						<br><br>
 							<h3 class="mb-4 billing-heading" align="center">상품 등록하기</h3>
 							<br>
